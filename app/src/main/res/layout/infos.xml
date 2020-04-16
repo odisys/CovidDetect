@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="20dp"
+                android:paddingTop="20dp"
+                android:paddingBottom="5dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginRight="20dp"
+                android:src="@drawable/logojodarmy"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="Qui sommes-nous?"
+                android:textSize="30sp"
+                android:fontFamily="casual"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Covid-Detect a ete realise par JodArmy en partenariat avec Aton-dh Nous sommes soucieux de participer activement dans la lutte contre le Covid19: "
+                android:textSize="18sp"
+                android:fontFamily="casual"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="Pour nous contacter?"
+                android:textSize="30sp"
+                android:fontFamily="casual"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:text="Vous pouvez nous joindre sur cette adresse email:jodArmy.bf@gmail.com \nTEL:+226 63 27 09 47"
+                android:textSize="18sp"
+                android:fontFamily="casual"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="50dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
